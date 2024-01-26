@@ -59,7 +59,7 @@ public class Operations {
             callableStatement.setLong(1, subscId);
             callableStatement.setString(2, msisdn);
             callableStatement.setLong(3, amount);
-            callableStatement.setNull(4, Types.NUMERIC); // Assuming the fourth parameter is an OUT parameter (replace with the appropriate type if needed)
+            callableStatement.setNull(4, Types.NUMERIC); 
             callableStatement.execute();
         }
         return "Success";
