@@ -11,7 +11,7 @@ public class UsageMessage {
 
     public UsageMessage(int price, String msisdn, int subscriberID, String usedService, int par2) {
     this.msisdn = msisdn;
-    this.usedAmount = (long) price; // price'ı usedAmount'a dönüştürüyoruz.
+    this.usedAmount = (long) price; 
     this.usedService = usedService;
     this.price = price;
     this.subscriberID = subscriberID;
