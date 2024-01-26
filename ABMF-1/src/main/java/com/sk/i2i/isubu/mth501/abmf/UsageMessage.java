@@ -7,7 +7,7 @@ public class UsageMessage {
     private int price;
     private int subscriberID;
 
-    // Diğer constructor ve getter/setter metotları...
+    
 
     public UsageMessage(int price, String msisdn, int subscriberID, String usedService, int par2) {
     this.msisdn = msisdn;
